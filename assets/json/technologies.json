@@ -6,7 +6,7 @@
   },
   {
     "title": "DATABASES",
-    "list": ["PostgreSQL", "NoSQL", "MySQL", "SQLite", "MongoDB"]
+    "list": ["PostgreSQL", "NoSQL", "MySQL", "SQLite", "MongoDB", "MS SQL Server"]
   },
   {
     "title": "OPERATING_SYSTEMS",
@@ -15,17 +15,17 @@
   {
     "title": "IDES",
     "list": ["Eclipse", "IntelliJ IDEA", "Android Studio", "Xcode",
-      "Sublime Text"]
+      "Visual Studio Code"]
   },
   {
     "title": "VCS_AND_AUTOMATIC_ASSEMBLING",
-    "list": ["Git", "Gulp", "Grunt", "Maven", "Gradle", "npm",
+    "list": ["Git", "Gulp", "Grunt", "Maven", "Gradle", "npm", "Webpack",
       "Jenkins"]
   },
   {
     "title": "TEST_SUITES_AND_QUALITY_CONTROLL",
     "list": ["JUnit", "Sonar", "Mockito", "Karma Test Runner",
-      "Jasmine", "Selenium", "Calabash", "JSHint"]
+      "Jasmine", "Selenium", "Calabash", "ESLint"]
   },
   {
     "title": "APPLICATION_SERVERS",
@@ -39,6 +39,6 @@
   {
     "title": "IT_AND_WEB",
     "list": ["Spring Framework", "Hibernate", "node.js", "HTML5",
-      "CSS3", "XML", "AngularJS", "JQuery", "MyBatis", "Webpack", "VueJS"]
+      "CSS3", "XML", "Angular", "React", "JQuery", "MyBatis", "VueJS"]
   }
 ]

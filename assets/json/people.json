@@ -78,27 +78,6 @@
         "role": "HR_INSPECTOR"
     },
     {
-        "name": "IRINA_YAROSLAVSKAYA",
-        "role": "HR",
-        "social": [
-            {
-                "title": "vk",
-                "class": "fa fa-vk",
-                "url": "https://vk.com/id399999727"
-            },
-            {
-                "title": "facebook",
-                "class": "fa fa-facebook-square",
-                "url": "https://www.facebook.com/irina.yaroslavskaya.3"
-            },
-            {
-                "title": "linkedin",
-                "class": "fa fa-linkedin-square",
-                "url": "https://www.linkedin.com/in/irina-yaroslavskaya-55665b134"
-            }
-        ]
-    },
-    {
         "name": "ANTON_LIPOVTSEV",
         "role": "ANDROID_DEV",
         "social": [
@@ -115,16 +94,8 @@
         ]
     },
     {
-        "name": "ALEXANDER_SANCHUK",
-        "role": "IOS_DEV"
-    },
-    {
         "name": "OLEG_SAMOLYUK",
         "role": "ANDROID_DEV"
-    },
-    {
-        "name": "EDUARD_KUZHIR",
-        "role": "BE_DEV"
     },
     {
         "name": "ANTON_KRIVCHIKOV",
