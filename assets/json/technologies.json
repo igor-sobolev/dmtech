@@ -1,0 +1,44 @@
+[
+  {
+    "title": "PROGRAMMING_LANGUAGES",
+    "list": ["Java", "Swift", "Objective-C", "Python", "JavaScript",
+      "Ruby"]
+  },
+  {
+    "title": "DATABASES",
+    "list": ["PostgreSQL", "NoSQL", "MySQL", "SQLite", "MongoDB"]
+  },
+  {
+    "title": "OPERATING_SYSTEMS",
+    "list": ["Windows", "Linux", "macOS", "iOS", "Android"]
+  },
+  {
+    "title": "IDES",
+    "list": ["Eclipse", "IntelliJ IDEA", "Android Studio", "Xcode",
+      "Sublime Text"]
+  },
+  {
+    "title": "VCS_AND_AUTOMATIC_ASSEMBLING",
+    "list": ["Git", "Gulp", "Grunt", "Maven", "Gradle", "npm",
+      "Jenkins"]
+  },
+  {
+    "title": "TEST_SUITES_AND_QUALITY_CONTROLL",
+    "list": ["JUnit", "Sonar", "Mockito", "Karma Test Runner",
+      "Jasmine", "Selenium", "Calabash", "JSHint"]
+  },
+  {
+    "title": "APPLICATION_SERVERS",
+    "list": ["Tomcat", "Jetty", "Apache", "Nginx"]
+  },
+  {
+    "title": "VIRTUALIZATION_AND_CLOUD_TECHNOLOGIES",
+    "list": ["Google Cloud Machine", "Digital Ocean", "Docker",
+      "Kubernetes"]
+  },
+  {
+    "title": "IT_AND_WEB",
+    "list": ["Spring Framework", "Hibernate", "node.js", "HTML5",
+      "CSS3", "XML", "AngularJS", "JQuery", "MyBatis", "Webpack", "VueJS"]
+  }
+]

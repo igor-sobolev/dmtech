@@ -1,0 +1,44 @@
+<section class="home-header">
+    <span class="header-quote">{{'MAIN_QUOTE' | translate}}</span>
+</section>
+<article>
+    <div class="row-fluid">
+        <div class="home-content">
+            <div class="brief">
+                <h5 translate="SHORTLY_ABOUT_US"></h5>
+                {{'COMPANY_BRIEF' | translate}}
+            </div>
+            <div class="advantages">
+                <span class="title">{{'ADVANTAGES_TITLE' | translate}}</span>
+                <ul>
+                    <li>{{'ADV_1' | translate}}</li>
+                    <li>{{'ADV_2' | translate}}</li>
+                    <li>{{'ADV_3' | translate}}</li>
+                    <li>{{'ADV_4' | translate}}</li>
+                    <li>{{'ADV_5' | translate}}</li>
+                    <li>{{'ADV_6' | translate}}</li>
+                </ul>
+            </div>
+            <div class="team-block">
+                <h5 translate="OUR_TEAM"></h5>
+                <div class="team-grid">
+                    <div class="team-entry" ng-repeat="person in team">
+                        <div class="avatar">
+                            <img ng-src="assets/img/people/{{person.name + '_175x175.png'}}">
+                            <div class="social" ng-if="person.social">
+                                <div class="buttons">
+                                    <a target="_blank" ng-repeat="button in person.social" class="{{button.class}}" href="{{button.url}}"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="name">{{person.name | translate}}</span>
+                        <span class="role">{{person.role | translate}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post-quote">
+                <span>{{'POST_QUOTE' | translate}}</span>
+            </div>
+        </div>
+    </div>
+</article>

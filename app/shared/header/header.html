@@ -1,0 +1,54 @@
+<div class="header-content-fixed">
+    <header>
+        <div id="logo">
+            <img src="assets/img/logo/DM Tech_icon 160 x 160.png">
+            <span class="dark-blue">DM</span><span class="green">Tech</span>
+        </div>
+        <input type="checkbox" name="drawer-toggle" id="drawer-toggle" class="nav-toggle">
+        <label for="drawer-toggle" class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="menu">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li ng-class="{'active': checkPath('/home')}">
+                            <a href="/home" translate="COMPANY"></a>
+                        </li>
+                        <li ng-class="{'active': checkPath('/technologies')}">
+                            <a href="/technologies" translate="TECHNOLOGIES"></a>
+                        </li>
+                        <li class="submenu" ng-class="{'active': checkPath('/career/students') || checkPath('/career/specialists')}">
+                            <a href="" translate="CAREER"></a>
+                            <input type="checkbox" name="submenu-toggle" id="submenu-toggle-1" class="submenu-toggle">
+                            <label for="submenu-toggle-1" class="submenu-toggle">
+                            </label>
+                            <div class="submenu-content">
+                                <ul>
+                                    <li>
+                                        <a href="/career/students" translate="FOR_STUDENTS"></a>
+                                    </li>
+                                    <li>
+                                        <a href="/career/specialists" translate="FOR_SPECIALISTS"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="ng-hide">
+                            <a href="" translate="BLOG"></a>
+                        </li>
+                        <li ng-class="{'active': checkPath('/contacts')}">
+                            <a href="/contacts" translate="CONTACTS"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="lang-panel" ng-controller="LanguageSwitchController">
+                <button class="lang-ru" ng-click="changeLanguage('ru')"></button>
+                <button class="lang-en" ng-click="changeLanguage('en')"></button>
+            </div>
+        </div>
+    </header>
+</div>

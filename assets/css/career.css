@@ -1,0 +1,43 @@
+.career-stud-header, .career-spec-header {
+    position: relative;
+    text-align: center;
+    display: block;
+    background-color: #C2B998;
+    background-image: url(/assets/img/hd_wp/pexels-free-books-student.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* add back negative margin value */
+    width: 100vw;
+    position: absolute;
+}
+
+.career-spec-header {
+    background-color: #101010;
+    background-image: url(/assets/img/hd_wp/pexels-free-black-and-white-city-man-people.jpg);
+}
+
+.career-content {
+    width: 100%;
+    display: block;
+    white-space: normal;
+    font-size: 18px;
+    min-height: 400px;
+}
+
+.interview {
+    margin-bottom: 15px;
+}
+
+.career-content a {
+    text-decoration: none;
+    color: #8DC057;
+    text-shadow: 2px 2px -1px #ccc;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.career-content a:hover {
+    color: #013A5C;
+}

@@ -1,0 +1,198 @@
+.home-header {
+    position: relative;
+    text-align: center;
+    display: block;
+    background-color: #518F9E;
+    background-image: url(/assets/img/hd_wp/pexels-free-mountains-hd.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    /* add back negative margin value */
+    width: 100vw;
+    position: absolute;
+    white-space: normal;
+    text-align: center;
+}
+
+.home-header .header-quote {
+    font-size: 45px;
+    text-align: left;
+    display: inline-block;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    font-family: "Arial";
+    color: white;
+    text-shadow: 1px 2px 3px #333;
+    cursor: default;
+}
+
+@media screen and (max-width: 1170px) {
+
+    .home-header .header-quote {
+        font-size: 34px;
+    }
+
+}
+
+.home-content {
+    width: 100%;
+    display: block;
+    white-space: normal;
+    font-size: 18px;
+}
+
+img.team {
+    max-width: 100%;
+}
+
+.advantages ul {
+    list-style-image: url(/assets/img/icons/check_16x16.png);
+    margin: 0;
+}
+
+.advantages li {
+    line-height: 22px;
+}
+
+.brief, .advantages, .post-quote {
+    margin-bottom: 15px;
+}
+
+.team-block {
+    margin-bottom: 35px;
+}
+
+.post-quote {
+    font-style: italic;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.post-quote span {
+    width: 50%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1170px) {
+    .post-quote span {
+        width: 80%;
+    }
+}
+
+.team-grid {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.team-entry {
+    display: inline-block;
+    width: 24%;
+    height: auto;
+    max-width: 250px;
+    vertical-align: top;
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.team-entry .avatar {
+    position: relative;
+    width: 175px;
+    height: 175px;
+}
+
+.team-entry .social {
+    height: 0;
+    opacity: 0.7;
+    transition: visibility 0.5s, height 0.7s;
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+.team-entry .avatar:hover .social {
+    height: 100%;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1170px) {
+    .team-entry {
+        width: 200px;
+    }
+}
+
+.team-entry > * {
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+}
+
+.team-entry img {
+    border-radius: 3px;
+    width: 175px;
+    height: 175px;
+}
+
+.team-entry span {
+    width: 100%;
+    text-align: center;
+}
+
+.team-entry .name {
+    font-size: 1.1em;
+    font-style: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.team-entry .role {
+    font-size: 0.9em;
+    font-style: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.social .buttons {
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    text-align: center;
+    visibility: visible;
+    opacity: 0;
+    width: 100%;
+    transition: top 0.7s, visibility 0.3s, opacity 0.3s ease 0.3s;
+}
+
+.team-entry .avatar:hover .social .buttons {
+    top: 70px;
+    opacity: 1;
+}
+
+.team-entry .avatar:hover .social .buttons a {
+    visibility: visible;
+    opacity: 1;
+}
+
+.social .buttons a {
+    text-decoration: none;
+    color: #ccc;
+    transition: opacity 0.3s ease, visibility 0.3s ease 0.3s;
+    padding: 5px;
+    opacity: 0;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.social .buttons a:hover {
+    color: white;
+    text-shadow: 1px 1px 1px #566, -1px -1px 1px #566;
+}

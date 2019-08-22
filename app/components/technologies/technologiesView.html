@@ -1,0 +1,25 @@
+<section class="technologies-header">
+    <span class="header-text">{{'TECHNOLOGIES' | translate}}</span>
+</section>
+<article>
+    <div class="row-fluid">
+        <div class="vertical-container-10">
+            <div class="technologies-content">
+                <ul class="technologies">
+                    <li ng-repeat="technology in firstHalf()">
+                        <h5 class="tec-header">{{technology.title | translate}}</h5>
+                        <span class="tec-body">{{technology.list.join(', ')}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="technologies-content">
+                <ul class="technologies">
+                    <li ng-repeat="technology in secondHalf()">
+                        <h5 class="tec-header">{{technology.title | translate}}</h5>
+                        <span class="tec-body">{{technology.list.join(', ')}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
